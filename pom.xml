@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library:project xmlns:library="http://maven.apache.org/POM/4.0.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <library:modelVersion>4.0.0</library:modelVersion>
+
+    <library:groupId>groupId</library:groupId>
+    <library:artifactId>AP_WorkShop_Project</library:artifactId>
+    <library:version>1.0-SNAPSHOT</library:version>
+
+    <library:properties>
+        <library:maven.compiler.source>18</library:maven.compiler.source>
+        <library:maven.compiler.target>18</library:maven.compiler.target>
+    </library:properties>
+
+    <library:dependencies>
+
+        <library:dependency>
+            <library:groupId>org.postgresql</library:groupId>
+            <library:artifactId>postgresql</library:artifactId>
+            <library:version>42.4.0</library:version>
+        </library:dependency>
+
+    </library:dependencies>
+</library:project>
